@@ -25,6 +25,10 @@ Start with the examples: VisualiseB1EffectsExample.m, Simple2DLUTConversionExamp
 
 2. Ruijters L, Lund TE, Vinding MS. Tolerating B1+-inhomogeneity in MP2RAGE-based $R_1$-mapping by calculating second contrast that permits previously problematic sequence parameters. Submitted to Magnetic Resonance in Medicine
 
+## If you use it, please cite the paper:
+
+Ruijters L, Lund TE, Vinding MS. Tolerating B1+-inhomogeneity in MP2RAGE-based $R_1$-mapping by calculating second contrast that permits previously problematic sequence parameters. Submitted to Magnetic Resonance in Medicine
+
 ## Required software:
 José P. Marques' MP2RAGE related scripts: https://github.com/JosePMarques/MP2RAGE-related-scripts
 
