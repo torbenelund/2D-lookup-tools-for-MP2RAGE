@@ -1,7 +1,7 @@
 # 2D-lookup-tools-for-MP2RAGE
 Matlab tools for dealing with non-bijective MP2RAGE transfer curves
 
-These matlab functions can be used to translate values in a unified MP2RAGE image into $T_1$ and $R_1$ maps despite non-bijective behavior of the MP2RAGE to $T_1$ transfer curve. The method is an extention to the 1D lookup table (1D-LUT) described in [Ref 1]. The method which is described in [Ref 2] involves the creation of a second contrast based on the two RAGE image acquisitions in the MP2RAGE acquisition. The second contrast is referred to DSR (Difference Sum Ratio) and is simply derived as $$I_{DSR}=\frac{I_{INV1}-I_{INV2}}{2(I_{INV1}+I_{INV2})}$$
+These matlab functions can be used to translate values in a unified MP2RAGE image into $T_1$ and $R_1$ maps despite non-bijective behavior of the MP2RAGE to $T_1$ transfer curve. The method is an extention to the 1D lookup table (1D-LUT) described in [Ref 1]. The method which is described in [Ref 2] involves the creation of a second contrast based on the two RAGE image acquisitions in the MP2RAGE acquisition. The second contrast is referred to DSR (Difference Sum Ratio) and is simply derived as $$I_{DSR}=\frac{|I_1|-|I_2|}{2(|I_1|+|I_2|)}$$
 
 Using Bloch simulations the expected value of $I_{DSR}$ can be derived based on $T_1$ and the sequence parameters, and my minimising the (weighted) distance to the $I_{UNI},I_{DSR}$ curve a $T_1$ value can be found for any pair of measured $I_{UNI},I_{DSR}$
 
