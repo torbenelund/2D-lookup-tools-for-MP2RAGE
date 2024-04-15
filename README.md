@@ -23,11 +23,11 @@ Start with the examples: VisualiseB1EffectsExample.m, Simple2DLUTConversionExamp
 ## References:
 1. Marques JP, Kober T, Krueger G, Van Der Zwaag W, Van De Moortele PF, Gruetter R. MP2RAGE, a self bias-field corrected sequence for improved segmentation and $T_1$-mapping at high field. NeuroImage. 2010 Jan;49(2):1271–81. 
 
-2. Ruijters L, Lund TE, Vinding MS. Tolerating B1+-inhomogeneity in MP2RAGE-based $R_1$-mapping by calculating second contrast that permits previously problematic sequence parameters. Submitted to Magnetic Resonance in Medicine
+2. Ruijters L, Lund TE, Vinding MS. Tolerating B1+-inhomogeneity in MP2RAGE-based $R_1$-mapping by calculating second contrast that permits previously problematic sequence parameters. Submitted to Magnetic Resonance in Medicine. Preprint avialable on bioRXiv: https://www.biorxiv.org/content/10.1101/2024.04.10.588855v1
 
 ## If you use it, please cite the paper:
 
-Ruijters L, Lund TE, Vinding MS. Tolerating B1+-inhomogeneity in MP2RAGE-based $R_1$-mapping by calculating second contrast that permits previously problematic sequence parameters. Submitted to Magnetic Resonance in Medicine
+Ruijters L, Lund TE, Vinding MS. Tolerating B1+-inhomogeneity in MP2RAGE-based $R_1$-mapping by calculating second contrast that permits previously problematic sequence parameters. Submitted to Magnetic Resonance in Medicine. Preprint avialable on bioRXiv: https://www.biorxiv.org/content/10.1101/2024.04.10.588855v1
 
 ## Required software:
 José P. Marques' MP2RAGE related scripts: https://github.com/JosePMarques/MP2RAGE-related-scripts
