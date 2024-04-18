@@ -16,7 +16,7 @@ Add the entire 2D-lookup-tools-for-MP2RAGE directory to your matlabpath with sub
 Start with the examples: VisualiseB1EffectsExample.m, Simple2DLUTConversionExample.m and DisplayConvertedImagesAndExplain2DLUTExample.m in that order. Or simply run the AllExamplesWithExplanation.m example to run them all. The script ScriptUsedToCreateFiguresInThePaper.m cannot be executed on the example dataset, but illustrates how the figures in [Ref 2] were created. The functions required for the method introduced in [Ref 2] are all located in the func directory. In the SPM_and_CAT12_wrappers directory a number of wrappers to the SPM12 and CAT12 software has been included. These wrappers are used e.g. to project out local curvature from the $R_1$-surfaces.
 The animated GIF illustrates the effect of performing this correction.
 
-![CurvatureCorrection](https://github.com/torbenelund/2D-lookup-tools-for-MP2RAGE/assets/28807460/b49206d3-2ccc-4d76-8cad-07727a50f9c9)
+![CurcatureCorrectionMovie](https://github.com/torbenelund/2D-lookup-tools-for-MP2RAGE/assets/28807460/6f2c34d3-ef6d-483d-a003-96ec364b3cec)
 
 
 ## References:
