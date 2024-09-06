@@ -8,6 +8,7 @@ Using Bloch simulations the expected value of $I_{DSR}$ can be derived based on 
 As seen in the figure below it is now possible to find the correct $R_1$ value, even in situations where one UNI value corresponds to two $R_1$ values. This is done by taking into account the second contrast, DSR, which also, in some situations have two $R_1$ values corresponding to one DSR value. By calculating the shortest (possibly weighted) distance bewteen a measured pair of (UNI,DSR) values and theoretical values in 2D-LUT a $R_1$ value can be derived for each (UNI,DSR) pair and an $R_1$-map can be created.
 
 <img width="992" alt="image" src="https://github.com/torbenelund/2D-lookup-tools-for-MP2RAGE/blob/main/figures/2D-LUT-Procedure.png">
+<img width="992" alt="image" src="https://github.com/torbenelund/2D-lookup-tools-for-MP2RAGE/blob/main/figures/2D-LUT-Procedure.png">
 
 ## Installation:
 Add the entire 2D-lookup-tools-for-MP2RAGE directory to your matlabpath with subdirectories, and make sure you have the required software installed.
