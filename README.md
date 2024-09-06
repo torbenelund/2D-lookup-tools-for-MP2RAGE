@@ -6,7 +6,7 @@ These matlab functions can be used to translate values in a unified MP2RAGE imag
 Using Bloch simulations the expected value of $I_{DSR}$ can be derived based on $T_1$ and the sequence parameters, and my minimising the (weighted) distance to the $I_{UNI},I_{DSR}$ curve a $T_1$ value can be found for any pair of measured $I_{UNI},I_{DSR}$
 
 As seen in the figure below it is now possible to find the correct $R_1$ value, even in situations where one UNI value corresponds to two $R_1$ values. This is done by taking into account the second contrast, DSR, which also, in some situations have two $R_1$ values corresponding to one DSR value. By calculating the shortest (possibly weighted) distance bewteen a measured pair of (UNI,DSR) values and theoretical values in 2D-LUT a $R_1$ value can be derived for each (UNI,DSR) pair and an $R_1$-map can be created.
-
+<img src="figures/2D-LUT-Procedure.png" width="900" />
 
 ## Installation:
 Add the entire 2D-lookup-tools-for-MP2RAGE directory to your matlabpath with subdirectories, and make sure you have the required software installed.
