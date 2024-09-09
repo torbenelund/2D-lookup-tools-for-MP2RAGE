@@ -7,6 +7,7 @@ PDFFileName = fullfile(PaperFigureDirec,'Figure2.pdf');
 EPSFileName = fullfile(PaperFigureDirec,'Figure2.eps');
 PNGFileName = fullfile(PaperFigureDirec,'Figure2.png');
 
+ScaleVector  = [100 1];
 SaveFigures = 1;
 
 %% Get the UNI, DSR and R1 image and show them using spm_check_registration
