@@ -43,9 +43,9 @@ disp([datestr(now) ' - Converting the scaled UNI and DSR images to R1 maps'])
 
 B1Vector                = 1;
 MP2RAGE                 = create_MP2RAGE_2DLUT(MP2RAGE,T1Vector,B1Vector);
-scalevec                = [100 1]; % perform 2D lookup with heavy UNI weighting
+ScaleVector                = [100 1]; % perform 2D lookup with heavy UNI weighting
 shortname               = '';
-MP2RAGE                 = apply_MP2RAGE_2DLUT(MP2RAGE,[MP2RAGE.UNIVector MP2RAGE.DSRVector],MP2RAGE.T1Vector,scalevec,shortname);
+MP2RAGE                 = apply_MP2RAGE_2DLUT(MP2RAGE,[MP2RAGE.UNIVector MP2RAGE.DSRVector],MP2RAGE.T1Vector,ScaleVector,shortname);
 
 disp([datestr(now) ' - Done'])
 
