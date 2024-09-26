@@ -13,7 +13,10 @@ As seen in the figure below it is now possible to find the correct $R_1$ value, 
 Add the entire 2D-lookup-tools-for-MP2RAGE directory to your matlabpath with subdirectories, and make sure you have the required software installed.
 
 ## Usage:
-Start with the examples: VisualiseB1EffectsExample.m, Simple2DLUTConversionExample.m and DisplayConvertedImagesAndExplain2DLUTExample.m in that order. Or simply run the AllExamplesWithExplanation.m example to run them all. The script ScriptUsedToCreateFiguresInThePaper.m cannot be executed on the example dataset, but illustrates how the figures in [Ref 2] were created. The functions required for the method introduced in [Ref 2] are all located in the func directory. In the SPM_and_CAT12_wrappers directory a number of wrappers to the SPM12 and CAT12 software has been included. These wrappers are used e.g. to project out local curvature from the $R_1$-surfaces.
+Start with the examples: VisualiseB1EffectsExample.m, Simple2DLUTConversionExample.m and DisplayConvertedImagesAndExplain2DLUTExample.m in that order. Or simply run the AllExamplesWithExplanation.m example to run them all. The script ScriptUsedToCreateFiguresInThePaper.m cannot be executed on the example dataset, but illustrates how the figures in [Ref 2] were created. The functions required for the method introduced in [Ref 2] are all located in the func directory. The MATLAB app UNIDSR.mlapp found in the functions directory can be used to visualise and optimise the behaviour of your own sequence parameters.
+<img width="851" alt="UNIDSRApp" src="https://github.com/user-attachments/assets/123d52ab-a9ff-4cf6-91fc-705f690868cc">
+
+In the SPM_and_CAT12_wrappers directory a number of wrappers to the SPM12 and CAT12 software has been included. These wrappers are used e.g. to project out local curvature from the $R_1$-surfaces.
 The animated GIF illustrates the effect of performing this correction.
 
 ![CurcatureCorrectionMovie](https://github.com/torbenelund/2D-lookup-tools-for-MP2RAGE/assets/28807460/32e7a0d3-4fe7-483c-aab9-cc72974fc722)
