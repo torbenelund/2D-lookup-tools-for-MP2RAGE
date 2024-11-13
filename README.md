@@ -24,11 +24,12 @@ The animated GIF illustrates the effect of performing this correction.
 ## References:
 1. Marques JP, Kober T, Krueger G, Van Der Zwaag W, Van De Moortele PF, Gruetter R. MP2RAGE, a self bias-field corrected sequence for improved segmentation and $T_1$-mapping at high field. NeuroImage. 2010 Jan;49(2):1271–81. 
 
-2. Ruijters L, Lund TE, Vinding MS. A 3T investigation of $B_1^+$-inhomogeneity tolerance in MP2RAGE-based $R_1$-mapping by calculating second contrast that permits previously problematic sequence parameters. Submitted to Magnetic Resonance in Medicine. Preprint avialable on bioRXiv: https://www.biorxiv.org/content/10.1101/2024.04.10.588855v2
+2. Ruijters L, Lund TE, Vinding MS. Improving $B_1^+$-inhomogeneity tolerance by resolving non-bijection in MP2RAGE R1 mapping: A 2D look-up table approach demonstrated at 3 T
+Accepted in Magnetic Resonance in Medicine October 15th 2024  Avialable for Open Access download at: https://doi.org/10.1002/mrm.30363
 
 ## If you use it, please cite the paper:
-
-2. Ruijters L, Lund TE, Vinding MS. A 3T investigation of $B_1^+$-inhomogeneity tolerance in MP2RAGE-based $R_1$-mapping by calculating second contrast that permits previously problematic sequence parameters. Submitted to Magnetic Resonance in Medicine. Preprint avialable on bioRXiv: https://www.biorxiv.org/content/10.1101/2024.04.10.588855v2
+Ruijters L, Lund TE, Vinding MS. Improving $B_1^+$-inhomogeneity tolerance by resolving non-bijection in MP2RAGE R1 mapping: A 2D look-up table approach demonstrated at 3 T
+Accepted in Magnetic Resonance in Medicine October 15th 2024  Avialable for Open Access download at: https://doi.org/10.1002/mrm.30363
 
 ## Required software:
 José P. Marques' MP2RAGE related scripts: https://github.com/JosePMarques/MP2RAGE-related-scripts
