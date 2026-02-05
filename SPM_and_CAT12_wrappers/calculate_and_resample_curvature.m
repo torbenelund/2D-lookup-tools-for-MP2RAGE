@@ -26,6 +26,15 @@ elseif strcmp(DistanceMethod,'EquiDistance')
     depthlabel = ['EqDist' num2str(50+depth'*100,'%03.0f')];
 end
 
+%As CAT_Central2Pial uses opposite convention to that of other CAT programs
+% see below, we need to change the sign of depth
+
+% Usage: ./CAT_Central2Pial  surface_file thickness_file output_surface_file [extent]
+%Estimate pial or white surface from central surface using cortical thickness values. In order to estimate the pial surface an extent of 0.5 (default) should be used, while an extent of -0.5 results in the estimation of the white matter surface.
+%The equi-volume model optionally allows to correct the position of the surface around gyri and sulci. The area of the inner (white) and outer (pial) surface is used for this correction.
+%Furthermore, you can weight the extent of equi-volume correction which is helpful to correct the initial central surface in CAT12 in highly folded areas with high mean curvature.
+
+depth = -depth;
 
 fname               = spm_file(lhCentralGMName,'filename');
 basename            = spm_file(lhCentralGMName,'basename');
