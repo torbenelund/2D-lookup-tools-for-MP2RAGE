@@ -1,4 +1,4 @@
-function MP2RAGE = apply_MP2RAGE_2DLUT(MP2RAGE,X,T1vector,scalevec,shortname)
+function MP2RAGE = apply_MP2RAGE_2DLUT(MP2RAGE,X,T1vector,scalevec,shortname,norm)
 
 if nargin < 4
     scalevec = [1 1];
@@ -6,6 +6,10 @@ end
 
 if nargin < 5
     shortname = '';
+end
+
+if nargin < 6
+    norm = true;
 end
 
 pth             = spm_file(MP2RAGE.filenameScaledUNI,'path');
@@ -25,6 +29,13 @@ Y               = spm_read_vols(V);
 s               = size(Y);
 Y               = reshape(Y,[prod(s(1:3)) s(4)]);
 
+if norm
+    Xmag        = vecnorm(X,2,2);           % Calculate the pairwise magnitude of LUT and data
+    Ymag        = vecnorm(Y,2,2);
+
+    X           = X./Xmag;                  % Normalise LUT and data
+    Y           = Y./Ymag;
+end
 
 
 % Scale X and Y
@@ -32,7 +43,7 @@ Xsc             = X*diag(scalevec);
 Ysc             = Y*diag(scalevec);
 
 % Find the smallest distance to LUT points
-[D,I]           = pdist2(Xsc,Ysc,distmethod,'smallest',1);
+[D,I]           = pdist2(Xsc,Ysc,distmethod,'Smallest',1);
 
 % Find the corresponding T1 values and reshape
 calcT1          = reshape(T1vector(I),[s(1) s(2) s(3)]);
